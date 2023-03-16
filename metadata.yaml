@@ -1,0 +1,19 @@
+composer:
+  last: Brixi
+  first: František Xaver
+title: Missa in B flat major
+id: NovB Ia:51
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (tutti), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 37
+    rism: 600037853
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/685.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  clno12: Clarino I, II in \flat B
