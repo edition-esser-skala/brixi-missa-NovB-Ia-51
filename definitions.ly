@@ -6,7 +6,7 @@
 \include "ees_articulate.ly"
 
 
-tempoKyrie = \tempoMarkup "ANdante"
+tempoKyrie = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"
