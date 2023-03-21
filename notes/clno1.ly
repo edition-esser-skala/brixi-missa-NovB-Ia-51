@@ -127,3 +127,86 @@ GloriaClarinoI = {
     \pao d d e r\fermata \bar "|." %159 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    c'4\fE c8 c c c
+    c4 c r
+    e e8 e e e
+    e4 e r
+    R2. %5
+    r4 r r8 d
+    e4 d r
+    d2 \pao d4
+    d2 \pao d4
+    d2 \pao d4 %10
+    d2 g4
+    g g fis
+    g r r
+    R2.*18 %31
+    e8.\fE e16 e8 g \appoggiatura g f4
+    e e4. g8
+    g4 g8 g g fis
+    g4 r r %35
+    r d d
+    e4. e8 d d
+    e4. e8 d d
+    e4 \pao d d
+    e r r %40
+    c r r
+    R2.*3
+    r8 e e4 e %45
+    f d d
+    e d g
+    g8 f e4 r
+    r r8 e d4\trill
+    c r r %50
+    r8 e d4 d
+    e2 r4\fermata \bar "||"
+    \tempoEtIncarnatus R2.*21 \noBreak %73
+    R2.\fermata \bar "||"
+    \tempoEtResurrexit c4\fE c c \noBreak %75
+    c c r
+    e g8 f e4
+    d8 d d4 d
+    r8 g g4 fis
+    g r r %80
+    R2.
+    r4 r r8 g
+    e4 \pa e8 d \pd d4\trill
+    c8 c c c c c
+    c4 c r %85
+    r8 e e e e e
+    e4 e r
+    r8 c c c c4
+    R2.*2 %90
+    d8 d16 d d8 d d d
+    e g16 f e8 e d d
+    e g16 f e8 e d d
+    \pa e4. c8 d4 \pd
+    c r r %95
+    R2.
+    e4 e r
+    e e r
+    r r e
+    e e r %100
+    R2.*24 %124
+    r4 e\fE e %125
+    d d r
+    \pa d8 d d d e4 \pd
+    d r r
+    R2.*2 %130
+    e4\fE e e
+    e e r
+    e e g
+    g g r
+    R2.*5 %139
+    c,4 c r %140
+    e e r
+    R2.
+    r8 e4 e8 d4
+    e r r\fermata \bar "|." %144 finis
+  }
+}

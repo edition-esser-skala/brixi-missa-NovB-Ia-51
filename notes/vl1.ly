@@ -227,3 +227,141 @@ GloriaViolinoI = {
     c b' c, b' c, a' c, a' b4 r\fermata \bar "|." %159 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoCredo
+    <d b'>4\f r r
+    b'16 f b f d' b d b f' d f d
+    <d b'>4 r r
+    b'16 f b f d b d b f d f d
+    b8 f' b4 b %5
+    a8 b c a b c
+    d4 c16 f, g a b c d e
+    <f a,>4 r8 a, g e'
+    f4 r8 a, g e'
+    f4 r8 a, g e' %10
+    f16 f f f f f f f f f f f
+    f f f f f f f f e e e e
+    f c f c a f a f c a c a
+    <a f'>4 r r
+    R2.*7 %21
+    g''16\fE d g d b g b g d b d b
+    g4 r r
+    R2.*7 %30
+    b'16\fE f b f d' b d b f' d f d
+    b'8. b16 b8 b b a
+    b16 f b f d b d b f d f d
+    b8 c' d c \appoggiatura c b4\trill
+    a16 f a f c' a c a f' c f c %35
+    a'4 a a
+    b r8 d, c a'
+    b4 r8 d, c a'
+    b d, c b' c, a'
+    b b, b16 c d c b c d c %40
+    b4 r r
+    r8 fis' fis16 g a g fis g a g
+    fis4 r r
+    r8 g g16 a b a g a b a
+    g4 r8 b b b %45
+    c4 a a
+    b a r
+    r b b8 a
+    g f es d \appoggiatura d c4\trill
+    b16 f b f d' b d b f' d f d %50
+    b'8 b b4 a\trill \noBreak
+    b2 r4\fermata \bar "||"
+    \key es \major \tempoEtIncarnatus
+      es,4\p d c \noBreak
+    b2 b16.( c32) b16.( c32)
+    \appoggiatura b8 as2 as16.( b32) as16.( b32) %55
+    g8-! es'-! es( d) f( es)
+    es4\trill d8 b' a16( b) a( b)
+    b, b b b b b b b b b b b
+    h h h h h h h h h h h h
+    c8. d16 es4 es %60
+    d8^\critnote c c4 h\trill
+    c r r
+    r8 g(-. g-. g-. g-. g-.)
+    r g(-. g-. g-. g-. g-.)
+    r g(-. g-. g-. g-. g-.) %65
+    as-! f'-! as( e) e-! f-!
+    r as,(-. as-. as-. as-. as-.)
+    r a(-. a-. a-. a-. a-.)
+    a8.( b16) a8-! a'-! a( c,)
+    b( g) g(-. g-. g-. g-.) %70
+    r es(-. es-. es-. e-. e-.)
+    d2 d4
+    d8-! g-! fis( g) fis( g) \noBreak
+    g,2 r4\fermata \bar "||"
+    \key b \major \tempoEtResurrexit
+      <d' b'>4\fE r r \noBreak %75
+    b'16 f b f d' b d b f' d f d
+    <d b'>4 r r
+    a16 f a f c' a c a f' c f c
+    a'8 f g, f' g, e'
+    f f, f16 g a g f g a g %80
+    f8 c f a a c
+    c f f4 r8 f
+    d b' b,16 c b c c4\trill
+    b r r
+    r8 b' b16 c d c b c d c %85
+    b4 r r
+    r8 g g16 a b a g a b a
+    g4 r8 g g g
+    a a a a a a
+    b b b b b b %90
+    a4 r8 a a a
+    b4 r8 d, c a'
+    b4 r8 d, c a'
+    b16 a b a b8 b,16 c c4\trill
+    b d d %95
+    d d d
+    g16 d g d b g b g d b d b
+    g b g b d g d g b d b d
+    <g b,>4 q q
+    q <fis a,> fis16 d fis d %100
+    g d g d b' g b g fis d fis d
+    g d g d b' g b g h g h g
+    c g c g es c es c g es g es
+    c4 es' d
+    c d es %105
+    d8 h'16 c h8 h h h
+    c4 r8 es, d h'
+    c4 r8 es, d h'
+    c4 r8 es, d h'
+    c4 c g8 g %110
+    as4 f8 f g4
+    f f2\trill
+    es16 b es b g es g es b g b g
+    <g es'>4 r r
+    R2.*4 %118
+    r8 f'(-.\p f-. f-. f-. f-.)
+    r fis(-. fis-. fis-. fis-. fis-.) %120
+    r b(-. b-. b-. b-. b-.)
+    r c(-. c-. c-. c-. c-.)
+    r d(-. d-. d-. d-. d-.)
+    es( c) \appoggiatura d16 c8( b) \appoggiatura c16 b8( a)
+    b4 b'\f b %125
+    a a16 g f g a g f g
+    a4 r8 a b4
+    a r r
+    R2.
+    r8 d,16\fE es d8 c b a %130
+    g4 r r
+    g'16 d g d b g b g d b d b
+    g4 r r
+    b''16 f b f d b d b f d f d
+    b8 f''16 es d es c d b c as b %135
+    g8 g'16 f es f d es c d b c
+    a!8 a'16 g f g es f d es c d
+    b8 b'16 a g a f g es f d es
+    c d b c a b g a f g es f
+    d b d b f' d f d b' f b f %140
+    d' b d b f' d f d b' f b f
+    d' c b a g f es d d'4
+    r8 b4 b8 b a
+    <b d,>4 r r\fermata \bar "|." %144 finis
+  }
+}
