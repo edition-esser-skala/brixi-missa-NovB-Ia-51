@@ -247,7 +247,7 @@ AgnusClarinoI = {
     \clef treble
     \key c \major \time 3/4 \tempoAgnus
     R2.*53 \noBreak %53
-    R2.\fermata
+    R2.\fermata \bar "||"
     \time 4/4 \tempoDona \pa R1*3 %57
     g''4.\fE g8 g4 g
     g2 g4 g
