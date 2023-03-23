@@ -732,3 +732,74 @@ CredoBassFigures = \figuremode {
   r4 <6> <4>8 <3>
   r2. %144 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoSanctus
+    \mvTr b'4\fE-\tutti b, r r8 \mvTr a\p-\soloE
+    b c b c b d c b
+    f \mvTr f'\f-\tuttiE a f c' c, f4
+    r r8 \mvTr e\p-\solo f g f g
+    f a g f c \mvTr c4\fE-\tutti c8 %5
+    a8. a16 a4 d b'
+    g a d,8 \tempoPleni b[ d b] \noBreak
+    f' f, r f' b f d16 b c d
+    es8 d c4 b8 \clef "treble_8" d'[ es d]
+    cis4 d8 c h4 c8 b %10
+    a \clef bass f[ g f] e4 f8 es
+    d4 es8 d c c b b \noBreak
+    g' g g g f4 r\fermata \bar "||"
+    \clef treble \tempoOsanna
+      b'2-! b8-! \clef "treble_8" b,[ d c] \noBreak
+    b c d d, es f g a! %15
+    b2 \clef bass f
+    f4 f f f
+    d2 c
+    b4 r r8 b d c
+    b c d b es f g a! %20
+    b4 b, f' r
+    r8 f a g f g a a,
+    b c d e f4. es8
+    d es d c b \clef "treble_8" b'[ d c]
+    b c d d, es f g a %25
+    b2 \clef bass f
+    f4 f f f
+    d2 c
+    b8 g' f es d es d c
+    b16^\critnote c d es f8 f, b4 r\fermata \bar "|." %30 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2.. <5>8
+  r <6>4 q q8 q4
+  r2 <_!>
+  r4. <5>4 <6!>4 q8
+  r <6> <6!>4 <_!>2 %5
+  <7 [5!] _+>2. <5>4
+  <6! 5> <7 [5!] _+>2.
+  r4. <7- 5> <6>8. \once \bassFigureExtendersOn q16
+  r8 <6> <7> <6> r <6 3\!> \bassFigureExtendersOn q q \bassFigureExtendersOff
+  <6 5 [_!]>4 <3>8 <\t> <6 5>4 <_->8 <\t> %10
+  <6 5> <7> <5>4 <6 5> <_->8 <\t>
+  <6 5->4 <3>8 <\t> <6!>4 <8>
+  <6!>1
+  r2 r8 <8>4 \once \bassFigureExtendersOn q8
+  r4 <6>8 <5-> <9> <\t> <6>4 %15
+  <5 4> <\t 3>2.
+  r1
+  <7>4 <6> <7> <6>
+  r2 r8 <8>4 \once \bassFigureExtendersOn q8
+  r4 <5-> <9>8 <\t> <6> <6 5> %20
+  <9 4>4 <8 3> <_!>2
+  r4 <6>2 q8 <6 5->
+  <9> <\t> <6> <\t> <5 4>4 <\t 3>8 <\t \t>
+  <6>4 \once \bassFigureExtendersOn q8 q r4 <6>
+  r q <9>8 <\t> <6>4 %25
+  <5 4> <\t 3>2.
+  r1
+  <7>4 <6> <7> <6>
+  r8 <6> <6 [4]> <6> q4 \once \bassFigureExtendersOn q8 q
+  r4 <5 4>8 <\t 3> r2 %30 finis
+}

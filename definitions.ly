@@ -11,10 +11,12 @@ tempoGloria = \tempoMarkup "Allebreve moderato"
   tempoQuiTollis = \tempoMarkup "Largo"
   tempoQuoniam = \tempoMarkup "Allegro moderato"
   tempoQuoniamB = \tempoMarkup "Allegro"
-
 tempoCredo = \tempoMarkup "Allegro"
   tempoEtIncarnatus = \tempoMarkup "Adagio"
   tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Largo"
+  tempoPleni = \tempoMarkup "Allegro"
+  tempoOsanna = \tempoMarkup "Osanna · Allegro"
 
 
 \include "notes/clno1.ly"

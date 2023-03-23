@@ -17,3 +17,5 @@ sources:
 imslp:
 parts:
   clno12: Clarino I, II in \flat B
+extra_abbreviations:
+  vlne:

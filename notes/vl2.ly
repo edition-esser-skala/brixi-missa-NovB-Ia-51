@@ -361,3 +361,40 @@ CredoViolinoII = {
     <d f,> r r\fermata \bar "|." %144 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoSanctus
+    <f d'>4\f q f'16(\p d) c( b) a( c) c,( es)
+    d( b') a( es) d( b') a( es) d( f) b( d) es( a,) b( d,)
+    \appoggiatura d c8 a'4\f a8 g8.( a32 b) a4
+    c16(\p a) g( f) e( g)^\critnote g,( b) a( f') e( b) a( f') e( b)
+    a( c) f( a) b( e,) f( a,) \appoggiatura a g8 e'4\f e8 %5
+    e16 e e e e e e e f f f f f f f f
+    e e e e e e e e f8 \tempoPleni b[ b b] \noBreak
+    a16( b) a( b) c( b) c( a) b8 a f16 d es f
+    g8 f g a b f'16( b,) g'( b,) f'( b,)
+    a( cis) e( g) f( a,) f'( a,) g( h) d( f) es( g,) es'( g,) %10
+    f( a) c( es) d( b') b( d,) c( e) g( b) as( c,)) as'( c,)
+    b( d) f( as) g b, b b c c c c d d d d \noBreak
+    b b b b b b b b a4 r\fermata \bar "||"
+    \tempoOsanna r2 r8 d, f es \noBreak
+    d es f2 es4~ %15
+    es8 d16 c d8 b' a b a g
+    f f a g f g a c,
+    f4. g16 f \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
+    d8 g f es d4 r
+    R1 %20
+    r2 f
+    f4 f f f
+    d'2 c
+    b8 g f es d d f es
+    d es f2 es4~ %25
+    es8 d16 c d8 d' c d c b
+    a f' a g f g a c,
+    f4. g16 f \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
+    d8 es d c b2~
+    b8 b' f, a <b d,>4 r\fermata \bar "|." %30 finis
+  }
+}

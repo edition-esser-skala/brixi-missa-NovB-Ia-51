@@ -210,3 +210,34 @@ CredoClarinoI = {
     e r r\fermata \bar "|." %144 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    e'4\fE e r2
+    R1
+    r8 g4\fE g8 fis4 g
+    R1*3 %6
+    r2 r8 \tempoPleni e\fE e e \noBreak
+    d8. e16 f e f d e8 d r4
+    R1*3 %11
+    r2 r4 e \noBreak
+    fis2 g4 r\fermata \bar "||"
+    \tempoOsanna \pa c,2 c4 c \noBreak
+    c c a'2 %15
+    g4. e8 d e d c
+    g4 \pd r r2
+    R1*3 %20
+    r2 \pa g
+    g4 g g g
+    e'2 d
+    c c4 c
+    c c a'2 %25
+    g4. e8 d e d c \pd
+    d4 d d d
+    e r r2
+    e8 f e d c a' g f
+    e4 d c r\fermata \bar "|." %30 finis
+  }
+}

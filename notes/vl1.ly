@@ -365,3 +365,40 @@ CredoViolinoI = {
     <b d,>4 r r\fermata \bar "|." %144 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoSanctus
+    b''4\f b f16(\p d) c( b) a( c) c,( es)
+    d( b') a( es) d( b') a( es) d( f) b( d) es( a,) b( d,)
+    \appoggiatura d c8 f'4\f f8 e8.( f32 g) f4
+    c16(\p a) g( f) e( g) g,( b) a( f') e( b) a( f') e( b)
+    a( c) f( a) b( e,) f( a,) \appoggiatura a g8 c'4\f c8 %5
+    cis16 cis cis cis cis cis cis cis d d d d d d d d
+    d d d d cis cis cis cis d8 \tempoPleni d[ d d] \noBreak
+    c16( d) c( d) es!( d) es( c) d8 c \appoggiatura c b4\trill
+    b16 b' a g \appoggiatura f8 es4\trill d8 f16( b,) g'( b,) f'( b,)
+    a( cis) e( g) f( a,) f'( a,) g( h) d( f) es( g,) es'( g,) %10
+    f( a) c( es) d( b') b( d,) c( e) g( b) as( c,) as'( c,)
+    b( d) f( as) g g g g a a a a b b b b \noBreak
+    e, e e e e e e e f4 r \bar "||"
+    \tempoOsanna b,2 b4 b \noBreak
+    b b g'2 %15
+    f4. d8 c d c b
+    a a c b a b c4~
+    c8 f, b2 a4
+    b8 es d c  b d f es
+    d es f2 es4~ %20
+    es8 d16 c d8 b a! b a g
+    f4 r r2
+    R1
+    b2 b4 b
+    b b g'2 %25
+    f4. b8 a b a g
+    f a c b a b c4~
+    c8 f, b2 a4
+    b2~ b8 g f es
+    d b' f, a <b d,>4 r\fermata \bar "|." %30 finis
+  }
+}

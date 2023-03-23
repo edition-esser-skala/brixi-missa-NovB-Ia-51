@@ -611,6 +611,77 @@ CredoSopranoLyrics = \lyricmode {
   men. %144 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvDl b'4\fE^\tuttiE b \mvTr f'2~\pE^\solo
+    \once \tieDashed f~ f4 es16([ c) d( b)]
+    a8 \mvTr f'4\fE^\tutti f8 e8.([ f32 g)] f4
+    \mvTr c1~\pE^\solo
+    c4 b16([^\critnote g) a( f)] e8 \mvTr c'4\fE^\tutti c8 %5
+    cis8. cis16 cis4 d d
+    d( cis8.) cis16 d8 \tempoPleni d d d \noBreak
+    c8.([ d16)] es!([ d)] es([ c)] d8 c b4~
+    b8 b16 b b8([ a)] b f' g4~
+    g f2 es!4~ %10
+    es d c2
+    b c4 d8 d \noBreak
+    e2 f4 r\fermata \bar "||"
+    \tempoOsanna b,2 b4 b \noBreak
+    b b g'2 %15
+    f4. d8 c[ d c b]
+    a a c b a b c4~
+    c8[ f,] b2 a4
+    b8[ es d c] b d f es
+    d es f2 es4~ %20
+    es8[ d16 c] d8[ b] a![ b a g]
+    f4 r r2
+    R1
+    b2 b4 b
+    b b g'2 %25
+    f4. d8 c[ d c b]
+    a a c b a8([ b)] c4~
+    c8[ f,] b2 a4
+    \once \tieDashed b1~
+    b4. a8 b4 r\fermata \bar "|." %30 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san --
+  _
+  ctus, san -- ctus, san -- ctus,
+  san --
+  _ ctus, san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth. Ple -- ni sunt
+  coe -- li et ter -- ra glo --
+  ri -- a tu -- a, glo -- _
+  _ _ %10
+  _ _
+  _ _ ri -- a
+  tu -- a.
+  O -- san -- na
+  in ex -- cel -- %15
+  _ _ _
+  sis, o -- san -- na in ex -- cel --
+  _ _
+  _ sis, o -- san -- na
+  in ex -- cel -- _ %20
+  - _
+  sis,
+
+  o -- san -- na
+  in ex -- cel -- %25
+  _ _ _
+  sis, o -- san -- na in __ ex --
+  cel -- _
+  _
+  _ sis. %30 finis
+}
+
+
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
