@@ -923,3 +923,226 @@ BenedictusBassFigures = \figuremode {
   <4 2> <6> <4 2> <6> r2
   r8 <6 5> \bo <[6] 4> \bc <[5] 3> r2 %55 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \tempoAgnus
+    \mvTr b4\pE-\solo d f
+    b,\fE d f
+    b b, r
+    es\pE g es
+    d b d %5
+    es8 es es es es es
+    c4 b e
+    f f, r
+    f'\fE r r
+    d2\pE c4 %10
+    b g g'
+    fis d fis
+    g r r
+    r8 es! d c b a
+    g4 d' d, %15
+    g g'\f \once \tieDashed g~
+    g fis f~
+    f e es~
+    es8 c a d d' c
+    b8. c16 d4 d, %20
+    g b\p c
+    b g r
+    g\fE g, r
+    g'2\pE r4
+    g2 r4 %25
+    f!2 r4
+    f2 r4
+    es! r es
+    d h c
+    g' g, r %30
+    g2\fE r4
+    r8 c\pE es g c es
+    r a,, c f a c
+    r b, d f b d
+    r g,, b es g b %35
+    r a, c f a c
+    b,4 r d
+    es r r
+    c f f,
+    b b'\f b~ %40
+    b a as~
+    as g g
+    r8 f c a f es'
+    d8. es16 f4 f,
+    b r r %45
+    h2.\p
+    c4 c r
+    c\fE r r
+    cis2.\pE
+    d4 d r %50
+    d\fE r8 d\pE e fis
+    g2 f4
+    es!2. \noBreak
+    d\fermata \bar "||"
+    \clef treble \time 4/4 \tempoDona
+      \mvTr b''4.-!\fE-\tutti b8-! b-! \clef bass b,[ a b] \noBreak %55
+     g b f b es, b' d, b'
+     c,4 a b8 c d e
+     f g a4 \clef "treble_8" r8 f' e f
+     d f c f b, f' a, f'
+     g,4 e f8 g a4 %60
+     \clef bass b4. b8 b4 b
+     b2 b4 b
+     a8 g f es d c b4
+     a8 g f4 r8 a' g a
+     b4 a g f %65
+     c e f4. es8
+     d c b4 r8 b' a b
+     g b f b es, b' d, es
+     f4 a, b8 c d es
+     f4 fis g8 f es d %70
+     c es d c b a g4
+     \clef "treble_8" r8 g'' fis g es g d g
+     c, g' b, g' a,4 fis
+     g \clef bass b, c es
+     f! a, b d %75
+     es8 f g as b b, b' as
+     g f es4 \clef "treble_8" es' es
+     es2 es4 es
+     d8 c b as g f es4
+     r b' h2 %80
+     \clef bass c4. c8 c4 c
+     c2 c4 c
+     h8 a? g f es d c4
+     r8 c c' b a! c b a
+     g b a g fis a g f %85
+     e g c, e f g a4
+     r8 a g a b4 a
+     g f c e
+     f4. es8 d c  b4
+     r8 b' a b g b f b %90
+     es, b' d, es f4 a,
+     b8 c d es f2~
+     f1~-\tasto-\markup \remark "pedale"
+     f~
+     f~ %95
+     f~
+     f
+     b,4 r r8 b'-! f-! d-!
+     b4\p r r2
+     b4 r r2 %100
+     a4 r r2
+     a4 r r2
+     b4 r r2
+     es2.\f es4
+     d g es f %105
+     b, r r2\fermata \bar "|." %106 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r4 <6>2
+  q2. %5
+  r
+  <6>2 <7 5>4
+  <6 4> <5 3>2
+  r2.
+  <_+>2 <\t>4 %10
+  <6>2.
+  <6>4 <\t> <5>
+  r2.
+  r8 <4! 2\+>2 \once \bassFigureExtendersOn q8
+  r4 <6 4> <5 _+> %15
+  r <6>8 <5> <5> <6>
+  <4\+ 2>4 <5\+>8 <6> <\t _->4
+  <4! 2>4 <5!>8 <6> <\t>4
+  \bo <[4!] 2+>2 \bassFigureExtendersOn <4! 2+>8 \bc <[4!] 2+> \bassFigureExtendersOff
+  <6>8. <6 5>16 <5 4>4 <\t _+> %20
+  r <[6]>2
+  <6>2.
+  r
+  <6>
+  <[6!] 4\+ 2> %25
+  <6>
+  <4! 2>
+  <6>
+  <7>4 <6 5>2
+  <6 4>4 <5 _!>2 %30
+  <_!>2.
+  r8 <_->2 \once \bassFigureExtendersOn q8
+  r <6 5>2 \once \bassFigureExtendersOn q8
+  r <8>2 \once \bassFigureExtendersOn q8
+  r <6 5>2 \once \bassFigureExtendersOn q8 %35
+  r <5>2 \once \bassFigureExtendersOn q8
+  r2 <5->4
+  r2.
+  r4 <6 4> <5 3>
+  r <6>8 <5> q <6> %40
+  <4! 2>4 <[5!]>8 <6> <\t>4
+  <4 2> <5>8 <6-> <\t>4
+  r8 <_!>4. \once \bassFigureExtendersOn q8 <4 2>
+  <6>8. <5>16 <6 4>4 <5 3>
+  r2. %45
+  <7->4 <6> <5>
+  r2.
+  r
+  <7- _!>4 \bassFigureExtendersOn <6! _!> <5 _!> \bassFigureExtendersOff
+  <_+>2. %50
+  q4. <8 _+>8 <\t 3> <5 3>
+  <5>4 <6-> <6>
+  <7> <6>8 <5> <6>4
+  <_+>2.
+  r2 r8 <8>4 \once \bassFigureExtendersOn q8 %55
+  <6>8 <\t> <6 4> <\t \t> <5 3> <\t \t> <6> <\t>
+  <6> <5> <6> <5> r <[6]> <6> <5>
+  r4 <6> r8 <8>4 \once \bassFigureExtendersOn q8
+  <6>8 <\t> <6 4> <\t \t> <5 3> <\t \t> <6> <\t>
+  <6!> <5> <6> <5> r4 <6>8 <5-> %60
+  r1
+  <6 4>4 <5 3> <4 2> <3 1>
+  <6>4. \once \bassFigureExtendersOn q8 q q <3> <4!>
+  <6> <6!> <8>4. <6>8 <6!> <6>
+  <5 3\!>4 \bassFigureExtendersOn q q q \bassFigureExtendersOff %65
+  <_!> <6>8 <5> r4. <2>8
+  <6> <6 [_-]> r4. <8>4 \once \bassFigureExtendersOn q8
+  <6>8 <\t> <6 4> <\t \t> <5 3> <\t \t> <6>4
+  r <6>8 <5> <9> <\t> <6> <\t>
+  r4 <6>8 <5> <9>8 <\t> <5> <\t> %70
+  <6 5> <\t \t> <_+> <\t> <6> <6\\>4.
+  r8 <8>4 \once \bassFigureExtendersOn q8 <6>8 <\t> <6 4> <\t \t>
+  <5 3> <\t \t> <6> <\t> <6\\> <5-> <6> <5>
+  r4 <6>8 <5!> r4 <6>8 <5>
+  r4 <6>8 <5> r4 <6>8 <5-> %75
+  <9> <\t> <6> <\t> <5 4> \bassFigureExtendersOn q <5 3> q \bassFigureExtendersOff
+  <6> <6 [_-]> r4 <8> <\t>
+  <6 4-> <5 3> <4- 2> <3 1>
+  <6>4. \once \bassFigureExtendersOn q8 q \bo <[6 _-]> <5 3> \bc <[6 4!]>
+  r4 <8>8 <7-> <6>4. <5>8 %80
+  r1
+  <6- 4>4 <5 3> <4 2> <3 1>
+  <6>4. \once \bassFigureExtendersOn q8 q <\t>4.
+  r4. <\t>8 <6 5>4 <[3]>
+  <6 5> <[3]> <6 5> <[3]> %85
+  <6 5>4. \once \bassFigureExtendersOn q8 <5>4 <6>
+  r8 q <6!> <6> <5 3\!>4 \bassFigureExtendersOn q
+  q q \bassFigureExtendersOff <_!> <6>8 <5>
+  r4. <2>8 <6>4 \once \bassFigureExtendersOn q
+  r8 <8>4 \once \bassFigureExtendersOn q8 <6> <\t> <6 4> <\t \t> %90
+  <5 3> <\t \t> <6> <[7]>4. <6>8 <5>
+  <9> <\t> <6> <\t> <5>2
+  r1
+  r
+  r %95
+  r
+  <7 5>4 <6 4> <5 \t> <\t 3>
+  r1
+  r
+  r %100
+  <5>
+  <7>
+  <5>
+  <4 2>
+  <6>2 <6 5>4 <7> %105
+  r1 %106 finis
+}

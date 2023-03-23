@@ -460,3 +460,114 @@ BenedictusViolinoII = {
     g( as8) f16-! es8 d\trillE es16( b) b( g) <g es'>4\fermata \markOsannaUtSupra \bar "||" %55 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoAgnus
+    R2.
+    d'2\f es8( c)
+    d4 d r
+    r8 g,-!\p b-! es-! g-! b-!
+    r f,-! b-! d-! f-! b-! %5
+    r b, b b b b
+    es es d d b b
+    b4\trill a8 a,-!\f g( a)
+    a4 r r
+    r8 fis'-!\p a-! d-! fis-! a-! %10
+    r g,-! b-! d-! g-! b-!
+    r a, d4 d
+    d c b
+    a2.
+    b8. c16 b4 a\trillE %15
+    b b\f b
+    a a as
+    g g g
+    a!2.
+    b8. a16 g4 fis\trillE %20
+    g r r
+    b2\f c8( a)
+    b4 b, r
+    r8 es-!\p g-! b-! es-! g-!
+    r e,-! a-! cis-! e-! a-! %25
+    r d,,-! f-! a-! d-! f-!
+    r d,-! g-! h-! d-! g-!
+    r c,,-! es!-! g-! c-! es-!
+    r4 g, g
+    g g8 h,-!\f a( h) %30
+    h4 r r
+    c'\p c c
+    c c c
+    b! b b
+    b b b %35
+    a a a
+    f d f
+    es d es
+    \tuplet 3/2 4 { g8 f es } d4 c\trillE
+    d d'\f d %40
+    c c c
+    b b b
+    c2.
+    f,8. g16 f4 es\trill
+    d r r %45
+    f\p g as
+    g r8 es-!\p d( es)
+    es4 r r
+    g\p a! b!
+    a r8 fis-!\fE e( fis) %50
+    fis4 r r
+    r b\p a
+    g2. \noBreak
+    fis\fermata \bar "||"
+    \time 4/4 \tempoDona R1*3 %57
+    f'4.\fE f8 f4 f
+    f2 f4 f
+    e8 d c b a g f es' %60
+    d c b4 r8 d c d
+    es4 d g f~
+    f a, b8 c d e
+    f4 r r8 f e f
+    d f c f b, f' a, f' %65
+    g,2 f8 g a4
+    b8 c d4 r8 d c d
+    es4 d g f8 g
+    c,2. b4
+    a r r2 %70
+    r g'4. g8
+    g4 g g2
+    g4 g fis8 es! d c
+    b a g d' es d c b
+    a c f! es d c b as %75
+    g2 f\trillE
+    es4 r r8 es' d es
+    c es b es as, es' g, es'
+    b2 b4. c8
+    d2~ d8 es16 f g8 f %80
+    es d c4 r8 es d es
+    f4 es d c
+    g8 a! h4 c4. d8
+    es16 es es es es es es es es es es es d d d d
+    d d d d c c c c c c c c b b b b %85
+    b b b b b b b b a8 g f4
+    r8 f' e f d f c f
+    b, f' a, f' g,2
+    f8 g a4 b8 c d4
+    r8 d c d es4 d %90
+    g f8 g c,4 r
+    r2 f4. f8
+    f4 f f2
+    f4 f e8 d c b
+    a c d es d2~ %95
+    d8 g, a b c2~
+    c4 b2 a4
+    b8 c16 d es f g a b8 b,-! f-! d-!
+    b4 d-!\p d-! d-!
+    r f-! f-! f-! %100
+    r es-! es-! es-!
+    r g-! g-! g-!
+    r f-! f-! f-!
+    r <f c'>\f q q
+    \tuplet 3/2 4 { d'8 d d d d d c c c <c f,> q q } %105
+    <d f,>4 r r2\fermata \bar "|." %106 finis
+  }
+}

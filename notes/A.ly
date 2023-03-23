@@ -680,3 +680,148 @@ SanctusAltoLyrics = \lyricmode {
   _ _ _
   _ _ sis. %30 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \autoBeamOff \tempoAgnus
+    \mvTr b'2\pE^\solo c8([ a)]
+    b([ f)] f4 r
+    r r b
+    b2.
+    b %5
+    g
+    a4( b) d,
+    d\trill c r
+    r f f
+    fis2. %10
+    g
+    a2 a4
+    b as g
+    \appoggiatura g fis2.
+    g8. a!16 g4( fis) %15
+    g r r
+    R2.*37 \noBreak %53
+    R2.\fermata \bar "||"
+    \time 3/4 \tempoDona \mvTr b4.\fE^\tutti b8 b4 b \noBreak %55
+    b2 b4 b
+    a8[ g f es] d[ c] b4
+    r2 r8 a'[ g a]
+    b4 a d c
+    b g c,2 %60
+    b8[ c] d4 r8 b'[ a b]
+    g[ b f b] es,[ b' d, b']
+    c,2 d8[ es f g]
+    a4 r r2
+    R1*2 %66
+    b4. b8 b4 b
+    b2 b4 b
+    a8[ g f es] d2
+    c4 a'2 g4~ %70
+    g fis g8[ a] b4
+    r8 b[ a b] c4 b
+    es, d c a'
+    d, g g2
+    f1~ %75
+    f4 es2 d4
+    es8[ f] g4 r8 g[ f g]
+    as4 g f es
+    f8[ es] d4 es8[ f g a]
+    b[ f b as] \once \tieDashed g2 %80
+    g8[ f] es4 r8 c'[ h c]
+    as4 g f es
+    d2 es4. f8
+    g2 f
+    es d %85
+    c r
+    R1*2
+    r2 b'4. b8
+    b4 b b2 %90
+    b4 b a8[ g f es]
+    d2 c8[ b] a4
+    r8 a'[ g a] b4 a
+    d c8[ d] g,4 e
+    f \once \tieDashed f~ f8[ d g f] %95
+    es!2~ es8[ d16 es] f8[ es]
+    d[ es] \once \tieDashed f4~ f2
+    f4 r r2
+    d1\p
+    f %100
+    es
+    g
+    f
+    a\f
+    b4 g2( f4) %105
+    f r r2\fermata \bar "|." %106 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i,
+  qui
+  tol --
+  lis %5
+  pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- %10
+  re,
+  mi -- se --
+  re -- _ _
+  _
+  _ re no -- %15
+  bis.
+
+  Do -- na no -- bis %55
+  pa -- cem, pa --
+  _ _ cem,
+  pa --
+  _ _ _ _
+  _ _ _ %60
+  _ cem, pa --
+  _ _
+  _ _
+  cem,
+
+  do -- na no -- bis %67
+  pa -- cem, pa --
+  _ _
+  cem, pa -- _ %70
+  _ _ cem,
+  pa -- _ _
+  _ _ _ _
+  _ cem, pa --
+  _ %75
+  _ _
+  _ cem, pa --
+  _ _ _ _
+  _ _ _
+  _ _ %80
+  _ cem, pa --
+  _ _ _ _
+  _ _ _
+  _ _
+  _ _ %85
+  cem,
+
+  do -- na %89
+  no -- bis pa -- %90
+  cem, pa -- _
+  _ _ cem,
+  pa -- _ _
+  _ _ _ _
+  cem, pa -- %95
+  _ _
+  _ _
+  cem,
+  do --
+  na %100
+  no --
+  bis
+  pa --
+  _
+  cem, pa -- %105
+  cem. %106 finis
+}
