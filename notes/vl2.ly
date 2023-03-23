@@ -398,3 +398,65 @@ SanctusViolinoII = {
     b8 b' f, a <b d,>4 r\fermata \bar "|." %30 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoBenedictus
+    r16\pocoFE g'-! es( b) as( f') d( as) g4 r
+    r16 b'-! es,-! es-! es4~ es16 c'-! f,-! f-! f4~
+    f16 f-! f( b,) as'( f) g( es) d( f) f( b,) as'( f) g( es)
+    d b'-! b-! b-! b( f) f16.([ g64 as)] g16 g-! g-! g-! g16( d) d16.([ es64 f)]
+    es16 g-! g-! g-! g4 as b8 es, %5
+    es4 r16 des-! des-! des-! des( c) c-! c-! c( b) b-! b-!
+    b( as) as-! as-! as( g) g'-! g-! \appoggiatura g8 f4 es8 f
+    d es c d es16( es') es-! es-! h( c) c-! c-!
+    g( as8) f16-! es8 d\trillE es16( b) b( g) <g es'>4
+    r16\p g'-! es( b) as( f') d( as) g4 r %10
+    r16 b'-! es,-! es-! es4~ es16 c'-! f,-! f-! f4
+    r16 f-! f( b,) as'( f) g( es) d( f) f( b,) as'( f) g( es)
+    \appoggiatura es8 d4 r r16 b'-! b-! b-! b( f) f16.([ g64 as)]
+    g16 g-! g-! g-! g( d) d16.([ es64 f)] \appoggiatura f8 es4 r
+    r2 r16 d'-! d-! d-! d( c) c-! c-! %15
+    c( b) b-! b-! b( as!) as-! as-! as( g) g8-! r4
+    r2 r16 b-! b-! b-! b( a) a-! a-!
+    a( g) g-! g-! g( f) f-! f-! f( es) es-! es-! es( d) d-! d-!
+    g4 r r2
+    r r16\pocoFE d'-! b( f) es( c') a( es) %20
+    d4 r r16 f'-! b,-! b-! b4~
+    b16 g'-! c,-! c-! c2 r8 a16.([ b64 c)]
+    b8 f r a b16( b') b-! b-! fis( g) g-! g-!
+    d( es8) c16-! b8 a\trillE b16( f) f( d) <d b'>4
+    R1 %25
+    r16 c'-!\pE f,-! f-! f4~ f16 des'-! g,-! g-! g4
+    r16 g-! g( c,) b'( g) as( f) e( g) g( c,) b'( g) as( f)
+    \appoggiatura f8 e4 r r2
+    r r16 b'-! es,-! es-! es4~
+    es16 c'-! f,-! f-! f4 r16 f-! f( b,) as'( f) g( es) %30
+    d( f) f( b,) as'( f) g( es) d8 r r4
+    r16 g-! g-! g-! g4 as b8 es,
+    es4 r16 des-! des-! des-! des( c) c8-! r4
+    R1
+    r8 h' c4 h8 b a as %35
+    g4 r r16 c,-! c-! c-! c( d) d-! d-!
+    d( es) es-! es-! es( f) f-! f-! f8 es16 f g8 g,
+    c4 des' c b16 des c b
+    as4 r r2
+    r8 as f g e f d! es %40
+    c d es a, b4 c'
+    d8 es c d es4 r
+    R1
+    r16 c-! c-! c-! c4\trillE r16 b-! b-! b-! b4\trillE
+    r16 as-! as-! as-! as4\trillE r2 %45
+    R1
+    r16\pocoFE g-! es( b) as( f') d( as) g4 r
+    r16 b'-! es,-! es-! es4~ es16 c'-! f,-! f-! f4~
+    f16 f-! f( b,) as'( f) g( es) d( f) f( b,) as'( f) g( es)
+    d b'-! b-! b-! b( f) f16.([ g64 as)] g16 g-! g-! g-! g16( d) d16.([ es64 f)] %50
+    es16 g-! g-! g-! g4 as b8 es,
+    es4 r16 des-! des-! des-! des( c) c-! c-! c( b) b-! b-!
+    b( as) as-! as-! as( g) g'-! g-! \appoggiatura g8 f4 es8 f
+    d es c d es16( es') es-! es-! h( c) c-! c-!
+    g( as8) f16-! es8 d\trillE es16( b) b( g) <g es'>4\fermata \markOsannaUtSupra \bar "||" %55 finis
+  }
+}

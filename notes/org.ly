@@ -803,3 +803,123 @@ SanctusBassFigures = \figuremode {
   r8 <6> <6 [4]> <6> q4 \once \bassFigureExtendersOn q8 q
   r4 <5 4>8 <\t 3> r2 %30 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoBenedictus
+    \mvTr es8\p-\markup \remark "sempre" ^\tweak TextScript.X-offset #0 ^\solo g f b, es g f b,
+    es4 g as a
+    b r8 es, b4 r8 es
+    b4 d es r8 b
+    es16 es'-! es-! es-! es[( b]) b16.( c64 des) \appoggiatura des8 c4 g %5
+    r16 as-! as-! as-! e4 r8 f d! es
+    c d \once \tieDashed es4~ es16 b'-! b-! b-! b( as) as-! as-!
+    as( g) g-! g-! g( f) f-! f-! es4 r
+    r8 as b b, es es, es4
+    es'8 g f b, es g f b, %10
+    es4 g, as a
+    b r8 es b4 r8 es
+    b d16 c b8 d es g d4
+    es r8 b es d c b
+    a4. a'8 b b, r fis' %15
+    g g, r d' es es, r es'
+    f4 r16 f g a b8 r r4
+    R1
+    r16 c, es g c b a g a8 b es, d
+    es c f f, b d' c f, %20
+    b d c f, b4 d,
+    es e r16 f-! f-! f-! f( es) es-! es-!
+    es( d) d-! d-! d( c) c-! c-! b4 r
+    r8 es f f, b b' b,4
+    r8 b'16 as! g8 f e4 r8 e %25
+    f4 as, b h
+    c r8 f c4 r8 f
+    c4 r16 c d e f as c as f8 es
+    d4 r8 d es4 g,
+    as a b r8 es %30
+    b4 r8 es b4 r16 b c d
+    es es'-! es-! es-! es[( b]) b16.( c64 des) \appoggiatura des8 c4 g
+    r16 as-! as-! as-! e4 f r16 as g f
+    c'8 c,16 d e c d e f g as g f d es f
+    g4 r r2 %35
+    r8 g g,4 r2
+    R1
+    r16 c'-! c-! c-! c( b!) b-! b-! b( as) as-! as-! g8 c,
+    f g as f g f e c
+    f4 r r2 %40
+    r r16 b-! b-! b-! b( as) as-! as-!
+    as( g) g-! g-! f8 b, es f g es
+    f es d b es f g16 es f g
+    as4 d,!8 es16 f g4 c,8 d16 es
+    f4 b,8 c16 d es4 es16 g f es %45
+    b'8 b, d b es g, as b
+    es g f b, es g f b,
+    es4 g as a
+    b r8 es, b4 r8 es
+    b4 d es r8 b %50
+    es16 es'-! es-! es-! es[( b]) b16.( c64 des) \appoggiatura des8 c4 g
+    r16 as-! as-! as-! e4 r8 f d! es
+    c d \once \tieDashed es4~ es16 b'-! b-! b-! b( as) as-! as-!
+    as( g) g-! g-! g( f) f-! f-! es4 r
+    r8 as b b, es es, es4\fermata \markOsannaUtSupra \bar "||" %55 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r8 <6> q <7>4 <6>8 q <7>
+  \bo <[4]>8 \bc <[3]> <6>4 <6 5> <\t \t>
+  \bo <[4]>8 \bc <[3]>2..
+  r4 <6>8 <5>2 <7>8
+  r4. <6 _->8 <6>4 q %5
+  r <7- 5>2 <6 5>4
+  <6 [5]>8 <6 5> r2 <4 2>8 <6>
+  <4 2> <6> <4 2> <6> r2
+  r8 <6 5> \bo <[6] 4> \bc <[5] 3> r2
+  r8 <[6]> <6> <7>4 <6>8 q <7> %10
+  \bo <[4]>8 \bc <[3]> <6>4 <6 5> <\t \t>
+  \bo <[4]>8 \bc <[3]>2..
+  \bo <[6 4]>8 \bc <[6 _]>4 <6 5>8 \bo <[4]> \bc <[6]> <6> <5>
+  r2 \bo <[9 4]>8 \bc <[5 3]>4.
+  <6 5> <\t \t>2 <5 [_!]>8 %15
+  <9! 4> <8 3>4 <5->8 <9 4> <8 3>4 <6>16 <5>
+  <_!>4 r16 <3!> <3> q q2
+  r1
+  r16 <_->4.. <6 5>4 <4! 2>8 <6>
+  <6 5>4 <6 4>8 <5 _!>4 <[6]>8 <6!> <7 [_!]> %20
+  r <6> <6!> <7 [_!]> \bo <[4]> \bc <[3]> <6>4
+  <6 5> <\t \t> r16 \bo <[5 _!]>4. \bassFigureExtendersOn <5 _!>16
+  <5\! 2>8. <5 2>16 <5! 3>8. q16 \bassFigureExtendersOff <8>2
+  r8 <6 5> <6 4> <5 _!> r2
+  r8 <3>4 \once \bassFigureExtendersOn q8 <6 5>4. <6>16 <5> %25
+  <_->4 <6> <6 5 _-> <\t \t [_!]>
+  \bo <[4]>8 \bc <[_!]>4. <_!>2
+  \bo <[6 4]>8 \bc <[5 _!]>2. <2>8
+  <6>4. <6>16 <5> r4 <6>
+  <6 5> <\t \t>2. %30
+  r2. r16 <7->8.
+  r4. <6 _->8 <6>4 q
+  r16 <5>8. <7->2 r16 <6>8.
+  <4>8 <_!> <6>4. q16 <6-> <6!>8 <6>
+  <_!>1 %35
+  r8 q2..
+  r1
+  r16 <_!>8. <4 2->8 <6 [_-]> <4! 2> <6> <7 [5-]>8 <7 _!>
+  r4 <6>8 <6-> \bo <[5- 4]> \bc <[6- 4]> <6 5> <7 _!>
+  r1 %40
+  r2. <4 2>8 <6>
+  <4 2> <6> <7> q r4 <6>8 <[6]>
+  <3> <\t> <6 5> <7> r4 <6>8 <6->
+  <3>4 <7> <3> <[7]>
+  <3> <7> <3>2 %45
+  <4>8 <3>16 <2> <6> <5> <6> <5> r8 <6> <6 5> <7>
+  r8 <6> q <7>4 <6>8 q <7>
+  \bo <[4]>8 \bc <[3]> <6>4 <6 5> <\t \t>
+  \bo <[4]>8 \bc <[3]>2..
+  r4 <6>8 <5>2 <7>8 %50
+  r4. <6 _->8 <6>4 q
+  r <7- 5>2 <6 5>4
+  <6 [5]>8 <6 5> r2 <4 2>8 <6>
+  <4 2> <6> <4 2> <6> r2
+  r8 <6 5> \bo <[6] 4> \bc <[5] 3> r2 %55 finis
+}
