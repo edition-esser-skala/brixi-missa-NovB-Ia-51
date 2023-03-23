@@ -4,7 +4,7 @@ composer:
 title: Missa in B flat major
 id: NovB Ia:51
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (tutti), 2 clno (\flat B), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
